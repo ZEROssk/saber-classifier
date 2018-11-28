@@ -1,0 +1,6 @@
+%%bash
+
+if [ ! -f illust2vec_ver200.caffemodel ]; then
+    curl -L -O https://github.com/rezoo/illustration2vec/releases/download/v2.0.0/illust2vec_ver200.caffemodel
+fi
+
